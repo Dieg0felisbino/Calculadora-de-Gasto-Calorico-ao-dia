@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Calculadora de Gasto Calórico Diário</title>
+</head>
+<body>
+    <head>
+        <div class="container-fluid">
+            <h1 class="text-center">Calculadora de Gasto Calórico <hr></h1>
+        </div>
+    </head>
+    <div class="container row justify-content-center text-center">
+        <p class="col-6 justify-content-center"><input type="checkbox" name="Homem" id="checkboxHomem" onclick="checkboxHomem()"><strong>-Homem</strong></p>
+        <p class="col-6 justify-content-center"><input type="checkbox" name="Mulher" id="checkboxMulher" onclick="checkboxMulher()"><strong>-Mulher</strong></p>
+        <p class="col-4"><strong>Peso</strong>(Kg)<br><input type="number" name="Peso" id="peso"></p>
+        <p class="col-4"><strong>Altura</strong>(cm)<br><input type="number" name="Altura" id="altura"></p>
+        <p class="col-4"><strong>Idade</strong><br><input type="number" name="Idade" id="idade"></p>
+        <input type="button" value="Calcular" onclick="calcular()" class="col-2">
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
