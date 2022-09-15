@@ -1,0 +1,15 @@
+HTML body{
+    margin:0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+}
+#container-principal{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    padding-top: 30px;
+}

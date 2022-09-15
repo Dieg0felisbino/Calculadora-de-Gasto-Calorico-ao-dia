@@ -15,13 +15,17 @@
             <h1 class="text-center">Calculadora de Gasto Calórico <hr></h1>
         </div>
     </head>
-    <div class="container row justify-content-center text-center">
-        <p class="col-6 justify-content-center"><input type="checkbox" name="Homem" id="checkboxHomem" onclick="checkboxHomem()"><strong>-Homem</strong></p>
-        <p class="col-6 justify-content-center"><input type="checkbox" name="Mulher" id="checkboxMulher" onclick="checkboxMulher()"><strong>-Mulher</strong></p>
-        <p class="col-4"><strong>Peso</strong>(Kg)<br><input type="number" name="Peso" id="peso"></p>
-        <p class="col-4"><strong>Altura</strong>(cm)<br><input type="number" name="Altura" id="altura"></p>
-        <p class="col-4"><strong>Idade</strong><br><input type="number" name="Idade" id="idade"></p>
-        <input type="button" value="Calcular" onclick="calcular()" class="col-2">
+    <div id="container-principal">
+        <div class="container row justify-content-center text-center">
+            <p class="col-6 justify-content-center"><input type="checkbox" name="Homem" id="checkboxHomem" onclick="checkboxHomem()"><strong>-Homem</strong></p>
+            <p class="col-6 justify-content-center"><input type="checkbox" name="Mulher" id="checkboxMulher" onclick="checkboxMulher()"><strong>-Mulher</strong></p>
+            <p class="col-4"><strong>Peso</strong>(Kg)<br><input type="number" name="Peso" id="peso"></p>
+            <p class="col-4"><strong>Altura</strong>(cm)<br><input type="number" name="Altura" id="altura"></p>
+            <p class="col-4"><strong>Idade</strong><br><input type="number" name="Idade" id="idade"></p>
+            <input type="button" value="Calcular" onclick="calcular()" class="col-2">
+            <h2>RESULTADO</h2>
+            <P id="resultado">Assim que todos os dados forem preenchidos corretamente o valor aparecerá aqui!</P>
+        </div>
     </div>
     <script type="text/javascript" src="script.js"></script>
 </body>
