@@ -17,26 +17,26 @@
         </div>
     </head>
     <div id="container-principal">
-        <div class="container-fluid row justify-content-center text-center">
+        <div class="container-fluid row justify-content-center text-center" id="container-secundario">
             <p class="col-12">Qual o seu principal objetivo?</p>
 
                 <div class="col-12 row" id="containerCheckbox">
-                    <p class="col-6"><input type="checkbox" name="PercaDePeso" id="PercaDePeso" onclick="perca()"><strong>-Perca de peso</strong></p>
+                    <p class="col-12 col-sm-12 col-md-6"><input type="checkbox" name="PercaDePeso" id="PercaDePeso" onclick="perca()"><strong>-Perca de peso</strong></p>
                     
-                    <p class="col-6"><input type="checkbox" name="ganhoDePeso" id="ganhoDePeso" onclick="ganho()"><strong>-Ganho de peso</strong></p>
+                    <p class="col-12 col-sm-12 col-md-6"><input type="checkbox" name="ganhoDePeso" id="ganhoDePeso" onclick="ganho()"><strong>-Ganho de peso</strong></p>
                 </div>
             
             <p>Qual o seu gênero?</p>
 
                 <div class="col-12 row" id="containerCheckbox">
-                    <p class="col-6 justify-content-center"><input type="checkbox" name="Homem" id="checkboxHomem" onclick="checkboxHomem()"><strong>-Homem</strong></p>
-                    <p class="col-6 justify-content-center"><input type="checkbox" name="Mulher" id="checkboxMulher" onclick="checkboxMulher()"><strong>-Mulher</strong></p>
+                    <p class="col-12 col-sm-12 col-md-6"><input type="checkbox" name="Homem" id="checkboxHomem" onclick="checkboxHomem()"><strong>-Homem</strong></p>
+                    <p class="col-12 col-sm-12 col-md-6"><input type="checkbox" name="Mulher" id="checkboxMulher" onclick="checkboxMulher()"><strong>-Mulher</strong></p>
                 </div>
 
                 <div class="col-12 row">
-                    <p class="col-4"><strong>Peso</strong>(Kg)<br><input type="number" name="Peso" id="peso" class="inputNumber"></p>
-                    <p class="col-4"><strong>Altura</strong>(cm)<br><input type="number" name="Altura" id="altura" class="inputNumber"></p>
-                    <p class="col-4"><strong>Idade</strong><br><input type="number" name="Idade" id="idade" class="inputNumber"></p>
+                    <p class="col-12 col-sm-12 col-md-4"><strong>Peso</strong>(Kg)<br><input type="number" name="Peso" id="peso" class="inputNumber"></p>
+                    <p class="col-12 col-sm-12 col-md-4"><strong>Altura</strong>(cm)<br><input type="number" name="Altura" id="altura" class="inputNumber"></p>
+                    <p class="col-12 col-sm-12 col-md-4"><strong>Idade</strong><br><input type="number" name="Idade" id="idade" class="inputNumber"></p>
                 </div>
             <input type="button" value="Calcular" onclick="calcular()" class="col-12" id="buttonCalcular">
             <h2>RESULTADO<hr></h2>
