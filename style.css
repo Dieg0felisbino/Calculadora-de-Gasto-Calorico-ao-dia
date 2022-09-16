@@ -4,8 +4,8 @@ HTML body{
     border: 0;
     outline: 0;
     font-size: 100%;
-    background: rgb(15,119,152);
-    background: linear-gradient(90deg, rgba(15,119,152,1) 0%, rgba(9,9,121,0) 50%, rgba(15,119,152,1) 100%);
+    background-color: #b0dbe8;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%231f67e4' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
 #cabecalho{
     background-color: rgba(255, 255, 255, 0.596);
@@ -15,7 +15,7 @@ HTML body{
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(255, 255, 255, 0.596);
-    border-radius: 30px;
+    border-radius: 10px;
 }
 h2{
     padding-top: 30px;
@@ -25,7 +25,7 @@ h2{
 }
 @media screen and (width < 900px) {
     #containerCheckbox{
-        width: 90%;
+        width: 100%;
     } 
     .inputNumber{
         max-width: 90px;
@@ -34,10 +34,10 @@ h2{
 #buttonCalcular{
     width: 150px;
     border-radius: 30px;
-    background-color: aqua;
+    background-color: white;
     color: black;
 }
 #buttonCalcular:hover{
-    background-color:gray;
+    background-color:black;
     color: white;
 }
