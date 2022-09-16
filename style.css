@@ -10,6 +10,9 @@ HTML body{
 #cabecalho{
     background-color: rgba(255, 255, 255, 0.596);
 }
+h2{
+    padding-top: 30px;
+}
 #container-principal{
     width: 90%;
     margin-left: auto;
@@ -17,19 +20,30 @@ HTML body{
     background-color: rgba(255, 255, 255, 0.596);
     border-radius: 10px;
 }
-h2{
-    padding-top: 30px;
-}
 #containerCheckbox{
     width: 50%;
 }
-@media screen and (width < 900px) {
+@media screen and (width < 900px) and (width > 350px) {
     #containerCheckbox{
         width: 100%;
     } 
     .inputNumber{
         max-width: 90px;
-    }   
+    }  
+    #container-principal{
+        width: 95%;
+    } 
+}
+@media screen and (width < 350px) {
+    #containerCheckbox{
+        width: 100%;
+    } 
+    .inputNumber{
+        max-width: 70px;
+    } 
+    #container-principal{
+        width: 100%;
+    }  
 }
 #buttonCalcular{
     width: 150px;
