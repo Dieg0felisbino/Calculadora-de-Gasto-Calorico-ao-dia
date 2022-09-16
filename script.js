@@ -47,20 +47,14 @@ function calcular(){
         let tmbAltura = (5*numaltura)
         let tmbIdade = (6.8*numidade)
         tmb = (66+tmbPeso+tmbAltura-tmbIdade)
-        console.log(tmb)
-            /*if (objetivo === "Perca de peso"){
-                txtres.innerHTML = `Você é um Homem de ${numidade} anos, hoje está com um peso de ${numpeso}Kg e sua altura é de ${numaltura}cm.<br><strong>SEU GASTO CALÓRICO DIÁRIO É DE ${tmb}.</strong><br>Para cumprir seu objetivo de ganhar peso você deve consumir diariamente mais que ${tmb} calorias.`}*/
-            
+        console.log(tmb)            
     } else { if (sexo === "Mulher"){
         let tmbPeso = (9.6*numpeso)
         let tmbAltura = (1.8*numaltura)
         let tmbIdade = (4.7*numidade)
         tmb = (655+tmbPeso+tmbAltura-tmbIdade)
         console.log(tmb)
-        /*txtres.innerHTML = `Você é uma Mulher de ${numidade} anos, hoje está com um peso de ${numpeso}Kg e sua altura é de ${numaltura}cm.<br><strong>SEU GASTO CALÓRICO DIÁRIO É DE ${tmb}.</strong>`*/
         }
-
-        
     }
     txtres.innerHTML = `Você é um(a) ${sexo} de ${numidade} anos, hoje você está com um peso de ${numpeso}Kg e sua altura é de ${numaltura}cm.<br><strong>SEU GASTO CALÓRICO DIÁRIO É DE ${tmb}<br></strong>${objetivo}.`
 }
